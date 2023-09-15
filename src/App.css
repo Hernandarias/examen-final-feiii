@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+  font-family: 'Nunito', sans-serif;
+}
+
+
+body,ul,li {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  list-style: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.favButton{
+  background-color: rgba(136, 136, 136, 0.116);
+  padding: 10px;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+}
+
+h1{
+  text-align: center;
+}
+
+nav{
+  width: 80vw;
+  justify-content: flex-start;
+  padding: 1rem;
+  text-decoration: none;
+  list-style: none;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  border-bottom-color: #000;
+  border-bottom: solid 1px;
+  align-items: center;
+}
+
+nav ul {
+  display: flex; 
+  justify-content: center; 
+}
+
+
+nav li {
+  margin: 0 20px; 
+  display:flex;
+  align-items:center;
+}
+
+nav a:hover {
+  color: #555; 
+}
+
+button{
+  color: #F6BE00;
+  display: inline-block;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  padding: 12px 17px;
+  border-radius: 50px;
+  background-color: #2222220d;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+button:hover{
+  background-color: #2222221a;
+}
+
+a{
+  text-decoration: none;
+  margin: 5px;
+  cursor: pointer;
+}
+a:hover{
+  color: rgb(136, 136, 136);
+} 
+
+footer {
+  border-top: solid black 1px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: auto;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+
+.full{
+    height: 100vh;
+    width: 100vw;
+  
+}
+
+input{
+  position: relative;
+  cursor: text;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 16px;
+  height: 35px;
+  margin-top: 6px;
+  background-color: #fff;
+  border: 1px solid #d6d6e7;
+  border-radius: 3px;
+  color: rgb(35, 38, 59);
+  box-shadow: inset 0 1px 4px 0 rgb(119 122 175 / 30%);
+  overflow: hidden;
+  transition: all 100ms ease-in-out;
+}
+
+input:hover{
+  border-color: #3c4fe0;
+  box-shadow: 0 1px 0 0 rgb(35 38 59 / 5%);
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.card_light{
+  background-color: #d7e0da;
+  border-radius: 20px;
+  border: 0.5px solid rgb(136, 136, 136);
+  text-align: center;
+}
+
+.card_dark{
+  background-color: darkgray;
+  border-radius: 20px;
+  border: 0.5px solid rgb(136, 136, 136);
+  text-align: center;
+}
+
+.card_dark img {
+  width: 200px;
+  height: 150px;
+}
+
+
+.card_light img {
+  width: 200px;
+  height: 150px;
+}
+
+.card-grid{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  width: 90vw;
+  height: auto;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+table {
+ border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table;
+    border: 1px solid #ccc;
+
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.darkNN{
+  background-color: black !important;
+  color:darkblue !important;
+
+}
+
+.lightNN{
+  color:black;
+  background-color: white;
+}
+
+.darkAP{
+  background-color: black !important;
+  color:darkblue !important;
+  height: 100vh;
+}
+
+.lightAP{
+  color:black;
+  background-color: white;
+  height: 100vh;
+}
+
+
+.dark{
+  background-color: black !important;
+  color:darkblue !important;
+}
+
+.light{
+  color:black;
+  background-color: white;
+}
+
+.slick-prev:before,
+.slick-next:before {
+   display:none;
+}
+
+
+
+
+
